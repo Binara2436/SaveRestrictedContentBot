@@ -12,9 +12,9 @@ logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s'
                     level=logging.WARNING)
 
 # variables
-API_ID = config("API_ID", default=None, cast=int)
-API_HASH = config("API_HASH", default=None)
-BOT_TOKEN = config("BOT_TOKEN", default=None)
+API_ID = config("API_ID", "20219667")
+API_HASH = config("API_HASH", "82b82bcd10c857178cc49e22f5e8d67c" )
+BOT_TOKEN = config("BOT_TOKEN", "6299210485:AAEb3tjYjE8DmwqX8ZCQ98kx8XcA3Q9Vals" )
 SESSION = config("SESSION", default=None)
 FORCESUB = config("FORCESUB", default=None)
 AUTH = config("AUTH", default=None, cast=int)
